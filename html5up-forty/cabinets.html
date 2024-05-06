@@ -21,16 +21,17 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
       <!-- Note: The "styleN" class below should match that of the banner element. -->
-      <header id="header" class="alt style2">
+      <header id="header" class="alt">
         <a href="index.html" class="logo"
-          ><img src="images/cover.png" alt="logo"
+          ><img src="images/cover.png" alt="site logo"
         /></a>
-				<h3><a href="index.html">HOME</a></h3>
+				<!-- <h3><a href="index.html">HOME</a></h3> -->
         <nav>
           <a href="#menu">Menu</a>
         </nav>
@@ -40,7 +41,7 @@
 			<nav id="menu">
         <ul class="links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="showers.html">Showers</a></li>
+          <li><a href="bathrooms.html">Bathrooms</a></li>
           <li><a href="cabinets.html">Cabinets</a></li>
           <li><a href="electric.html">Electric</a></li>
           <li><a href="plumbing.html">Plumbing</a></li>
@@ -54,7 +55,7 @@
 
       <!-- Banner -->
       <!-- Note: The "styleN" class below should match that of the header element. -->
-      <section id="banner" class="style2">
+      <section id="banner" class="major">
         <div class="inner">
           <span class="image">
             <img src="images/pic07.jpg" alt="" />
@@ -118,7 +119,8 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+
+								<form name="contact" method="POST" data-netlify="true">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -134,10 +136,13 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li>
+											<input type="submit" value="Send Message" class="primary" />
+										</li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
+
 							</section>
 							<section class="split">
 								<section>

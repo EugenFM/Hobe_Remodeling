@@ -80,6 +80,17 @@ input, select, textarea {
 	align-items: center;
 	/* align-items: center; */
 }
+
+/* #header nav *{
+	display: flex;
+	flex-basis: 60%;
+} */
+
+#header .img-prank {
+	border-radius: 100%;
+	background-color: green;
+}
+
 #header .logo {
 	width: 45%;
 }
@@ -1577,6 +1588,8 @@ header p {
 
 		@media screen and (max-width: 480px) {
 
+			#header 
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1826,14 +1839,19 @@ header p {
 		text-align: center;
 	}
 
-	header.major {
+		header.major {
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
+		/* padding-top: 2em; */
 		margin-bottom: 2em;
 	}
 
+	#banner.major{
+		padding: 3.5em 0 1.5em 0 !important;
+		height: auto !important;
+	}
 		header.major > :first-child {
 			margin-bottom: 0;
 			width: calc(100% + 0.5em);
